@@ -1,0 +1,45 @@
+.cart {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cartItem h3 {
+    font-size: 1.2em;
+}
+
+.cartItem p {
+    color: #555;
+}
+
+.cartItem button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cartItem button:hover {
+    background-color: #c82333;
+}
+
+.totalPrice {
+    font-size: 1.5em;
+    text-align: right;
+    margin-top: 20px;
+} 

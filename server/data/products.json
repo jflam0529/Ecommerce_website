@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "智能手机",
+        "description": "最新款智能手机，配备高性能处理器和高清摄像头。",
+        "price": 5999,
+        "image": "/images/smartphone.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "笔记本电脑",
+        "description": "轻薄便携的笔记本电脑，适合办公和娱乐。",
+        "price": 8999,
+        "image": "/images/laptop.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "无线耳机",
+        "description": "高品质音效的无线耳机，支持降噪功能。",
+        "price": 999,
+        "image": "/images/wireless_earphone.png",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "智能手表",
+        "description": "多功能智能手表，支持健康监测和消息提醒。",
+        "price": 1999,
+        "image": "/images/smart_watch.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "平板电脑",
+        "description": "大屏幕平板电脑，适合观看视频和阅读电子书。",
+        "price": 2999,
+        "image": "/images/ipad.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "游戏主机",
+        "description": "高性能游戏主机，支持4K高清画质。",
+        "price": 4999,
+        "image": "/images/game_console.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "蓝牙音箱",
+        "description": "便携式蓝牙音箱，音质清晰且支持无线连接。",
+        "price": 799,
+        "image": "/images/bluetooth_speaker.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "数码相机",
+        "description": "高清数码相机，捕捉每一个精彩瞬间。",
+        "price": 4599,
+        "image": "/images/digital_camera.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "VR眼镜",
+        "description": "沉浸式VR眼镜，带来身临其境的虚拟体验。",
+        "price": 1499,
+        "image": "/images/vr_glasses.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "name": "电子书阅读器",
+        "description": "轻便的电子书阅读器，适合长时间阅读。",
+        "price": 1299,
+        "image": "/images/ebook_reader.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 11,
+        "name": "智能音响",
+        "description": "智能语音控制音响，带来丰富的听觉体验。",
+        "price": 1099,
+        "image": "/images/smart_speaker.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "name": "扫地机器人",
+        "description": "全自动扫地机器人，轻松清洁每一个角落。",
+        "price": 2299,
+        "image": "/images/robot_vacuum.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 13,
+        "name": "运动手环",
+        "description": "多功能运动手环，实时监测健康数据。",
+        "price": 499,
+        "image": "/images/fitness_band.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 14,
+        "name": "空气净化器",
+        "description": "高效空气净化器，清新您的居住环境。",
+        "price": 1499,
+        "image": "/images/air_purifier.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 15,
+        "name": "高清投影仪",
+        "description": "便携式高清投影仪，家庭影院的最佳选择。",
+        "price": 3599,
+        "image": "/images/projector.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 16,
+        "name": "电动牙刷",
+        "description": "高效电动牙刷，呵护您的牙齿健康。",
+        "price": 299,
+        "image": "/images/electric_toothbrush.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 17,
+        "name": "智能门锁",
+        "description": "安全智能门锁，支持指纹识别和密码解锁。",
+        "price": 1999,
+        "image": "/images/smart_door_lock.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 18,
+        "name": "电动滑板车",
+        "description": "便携电动滑板车，城市出行的好帮手。",
+        "price": 2399,
+        "image": "/images/electric_scooter.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 19,
+        "name": "智能监控摄像头",
+        "description": "高清智能监控摄像头，保障家庭安全。",
+        "price": 699,
+        "image": "/images/smart_camera.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 20,
+        "name": "智能温控器",
+        "description": "智能温控器，远程控制家中温度。",
+        "price": 1599,
+        "image": "/images/smart_thermostat.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 21,
+        "name": "智能窗帘",
+        "description": "自动智能窗帘，随时调节室内光线。",
+        "price": 1299,
+        "image": "/images/smart_curtain.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 22,
+        "name": "便携式冰箱",
+        "description": "小巧便携的迷你冰箱，随时保持食物新鲜。",
+        "price": 899,
+        "image": "/images/portable_fridge.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 23,
+        "name": "智能水壶",
+        "description": "带温度控制的智能水壶，随时享用温热饮品。",
+        "price": 499,
+        "image": "/images/smart_kettle.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 24,
+        "name": "电子血压计",
+        "description": "便携式电子血压计，随时监测健康。",
+        "price": 699,
+        "image": "/images/blood_pressure_monitor.jpeg",
+        "quantity": 1
+    }
+]

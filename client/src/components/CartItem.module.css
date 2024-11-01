@@ -1,0 +1,74 @@
+.cartItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name {
+    flex: 3;
+    margin-right: 10px;
+}
+
+.price {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.quantityControl {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.decreaseButton, .increaseButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decreaseButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.quantityInput {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.removeButton {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    flex-shrink: 0;
+}
+
+.removeButton:hover {
+    background-color: #d9363e;
+} 

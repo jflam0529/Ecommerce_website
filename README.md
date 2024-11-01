@@ -48,32 +48,39 @@ App.js  # 应用主入口，路由配置
 
 ### 文件结构
 以下为项目的文件结构说明：
-my-ecommerce-app/
-├── public/
-│   └── index.html             # HTML 模板文件
-├── src/
-│   ├── components/            # 组件目录
-│   │   ├── ProductCard.js     # 商品卡片组件，用于展示商品信息
-│   │   └── CartItem.js        # 购物车商品项组件
-│   ├── pages/                 # 页面目录
-│   │   ├── ProductList.js     # 商品列表页面
-│   │   ├── ProductDetail.js   # 商品详情页面
-│   │   └── Cart.js            # 购物车页面
-│   ├── context/               # 状态管理目录
-│   │   └── CartContext.js     # 购物车上下文
-│   ├── api/                   # API 管理目录
-│   │   └── productApi.js      # 商品 API 调用函数
-│   ├── App.js                 # 应用主入口，路由配置
-│   └── index.js               # 入口文件，渲染 App
-├── server/
-│   ├── data/
-│   │   └── products.json      # 静态商品数据文件
-│   ├── routes/
-│   │   └── productRoutes.js   # 商品路由，用于提供商品信息的 API
-│   └── index.js               # 后端入口文件，配置 Express 服务
-└── package.json               # 项目配置文件
+my-ecommerce-app/  
 
----
+├── public/  
+│   └── index.html             # HTML 模板文件  
+
+├── src/  
+│   ├── components/            # 组件目录  
+│   │   ├── ProductCard.js     # 商品卡片组件，用于展示商品信息  
+│   │   └── CartItem.js        # 购物车商品项组件  
+
+│   ├── pages/                 # 页面目录  
+│   │   ├── ProductList.js     # 商品列表页面  
+│   │   ├── ProductDetail.js   # 商品详情页面  
+│   │   └── Cart.js            # 购物车页面  
+
+│   ├── context/               # 状态管理目录  
+│   │   └── CartContext.js     # 购物车上下文  
+
+│   ├── api/                   # API 管理目录  
+│   │   └── productApi.js      # 商品 API 调用函数  
+
+│   ├── App.js                 # 应用主入口，路由配置  
+
+│   └── index.js               # 入口文件，渲染 App  
+
+├── server/  
+│   ├── data/  
+│   │   └── products.json      # 静态商品数据文件  
+
+│   ├── routes/  
+│   │   └── productRoutes.js   # 商品路由，用于提供商品信息的 API  
+
+│   └── index.js               # 后端入口文件，配置 Express 服务  
 
 ### 关键模块补充
 
@@ -109,6 +116,3 @@ my-ecommerce-app/
 
 ## 总结
 本项目是一个简易电商平台的原型。通过本项目，开发者将学习 React 的基础组件开发、路由配置、状态管理和 Express 的 API 构建。项目完成后，可以进一步扩展和优化用户体验。
-
-
-在Homepage中完善搜索的功能（CSS修饰，然后再最右边增加button（搜索））
